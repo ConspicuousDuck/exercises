@@ -1,0 +1,5 @@
+# 4_return_value_of_break
+
+answer = if no argument is passed to 'break' it will return nil
+if argument is passed it will return the expression result
+
