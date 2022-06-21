@@ -1,0 +1,20 @@
+# 1_whats_my_value
+
+a = 7
+
+def my_value(b)
+  b += 10
+end
+
+my_value(a)
+puts a
+
+# 7 is logged to screen.
+# the value of 'a' (10) is the parameter and not the variable it self.
+# 'b' is a new object and has not relation to var 'a'. 
+# Methods have a 'self-contained' scope. If you were to
+# try to mutate 'a' from inside the method you would 
+# get an error saying 'a' does not exist.
+# scope wise nothing inside method can affect anything
+# outside, nor can anything outside affect anything inside# the method.
+

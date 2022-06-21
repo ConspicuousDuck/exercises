@@ -1,0 +1,17 @@
+# 3_whats_my_value
+
+a = 7
+
+def my_value(b)
+  a = b
+end
+
+my_value(a + 5)
+puts a
+
+
+# => 7
+# Why? Like previous exercises and reasons.
+# methods have a 'self-contained' scope.
+# 'a' inside method is not the same 
+# as 'a' outside the method and cannot affect it if changed.

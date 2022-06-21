@@ -1,0 +1,3 @@
+# 8_right_justifying_strings
+
+Answer: str.rjust() method 

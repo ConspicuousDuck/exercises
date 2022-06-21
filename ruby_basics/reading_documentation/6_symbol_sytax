@@ -1,0 +1,8 @@
+# 6_symbol_syntax
+
+Two ways to to create a symbol in ruby in.
+
+1.  :vincent
+2. :"vincent"
+
+answer: :vincent

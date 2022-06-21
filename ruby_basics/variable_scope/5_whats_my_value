@@ -1,0 +1,20 @@
+# 5_whats_my_value
+
+a = "Xyzzy"
+
+def my_value(b)
+  b = 'yzzyX'
+end
+
+my_value(a)
+puts a
+
+=begin
+
+The value of 'a' should be unchanged.
+  "Xyzzy" should be printed
+
+PASSED!
+
+=end
+

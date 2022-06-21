@@ -1,0 +1,32 @@
+# 4_whats_my_value
+
+a = "Xyzzy"
+
+def my_value(b)
+  b[2] = '-'
+end
+
+my_value(a)
+puts a
+
+
+=begin
+  
+ 1.  Without looking anything up I originally thought there was a 
+  possibility that you could not '[]' a string and an error
+  would return.
+ 2. I thought similarly to the previous exercises that
+  'a' would not be changed at all.
+
+I was wrong. Strings are apparently mutable, but only 
+  with certain methods. #[] being one. 
+
+I tried
+  b.downcase!
+  and
+  b.replace('blue') (destructive method)
+but neither worked. 
+so I am assuming only certain methods are able to mutate
+it.
+
+=end

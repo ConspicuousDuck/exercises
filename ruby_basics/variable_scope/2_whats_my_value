@@ -1,0 +1,21 @@
+# 2_whats_my_value 
+
+a = 7
+
+def my_value(a)
+  a += 10
+end
+
+my_value(a)
+puts a
+
+ANSWER:
+7.
+
+'a' inside the method is not the same as 'a' outside the 
+  method.
+
+'a' inside the method is a new object.
+
+Local variable inside the method is not visible outside
+  of it and vice versa.  
