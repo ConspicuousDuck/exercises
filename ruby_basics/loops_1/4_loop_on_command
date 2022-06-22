@@ -1,0 +1,25 @@
+# 4_loop_on_command
+
+loop do
+  puts 'Should I stop looping?'
+  answer = gets.chomp
+
+  if answer == "yes"
+    break
+  end
+
+  puts "Enter 'yes' to stop."
+  
+end
+
+
+=begin
+
+Create an if statement and set the condition to
+answer == "yes" then break
+
+after solution lookup
+add additional instructions to stop the loop
+if desired answer is not submitted.
+
+=end
